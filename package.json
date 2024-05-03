@@ -1,0 +1,25 @@
+{
+	"name": "docker-cli",
+	"version": "1.0.0",
+	"description": "",
+	"author": "Theo ZERIBI",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"start:dev": "ts-node srcs/main.ts",
+		"start:prod": "node build/main.js",
+		"build": "tsc"
+	},
+	"dependencies": {
+		"@types/lodash": "^4.17.0",
+		"@types/node": "^20.12.8",
+		"console-gui-tools": "^3.5.0",
+		"dockerstats": "^2.4.2",
+		"lodash": "^4.17.21",
+		"ps-list": "^8.1.1",
+		"typescript": "^5.4.5"
+	},
+	"devDependencies": {
+		"ts-node": "^10.9.2"
+	}
+}
